@@ -124,6 +124,8 @@
     [self dismissViewControllerAnimated:YES completion:^{
         
     }];
+    
+    NSLog(@"test this");
 }
 
 
