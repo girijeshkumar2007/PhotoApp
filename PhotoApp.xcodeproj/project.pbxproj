@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA20312517B261BF0050D2DC /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20312217B261BF0050D2DC /* libAviarySDK.a */; };
 		CA20312617B261BF0050D2DC /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA20312417B261BF0050D2DC /* AviarySDKResources.bundle */; };
+		CA49F82417D1EB6400671553 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA49F82317D1EB6400671553 /* TestViewController.m */; };
 		CA5FEE5217B25F0300E122D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE5117B25F0300E122D6 /* UIKit.framework */; };
 		CA5FEE5417B25F0300E122D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE5317B25F0300E122D6 /* Foundation.framework */; };
 		CA5FEE5617B25F0300E122D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE5517B25F0300E122D6 /* CoreGraphics.framework */; };
@@ -44,6 +45,8 @@
 		CA20312117B261BF0050D2DC /* AFPhotoEditorSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorSession.h; sourceTree = "<group>"; };
 		CA20312217B261BF0050D2DC /* libAviarySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAviarySDK.a; sourceTree = "<group>"; };
 		CA20312417B261BF0050D2DC /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
+		CA49F82217D1EB6400671553 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		CA49F82317D1EB6400671553 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		CA5FEE4D17B25F0300E122D6 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5FEE5117B25F0300E122D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CA5FEE5317B25F0300E122D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +185,8 @@
 				CA5FEE7217B25F0400E122D6 /* TestMasterViewController.m */,
 				CA5FEE7417B25F0400E122D6 /* TestDetailViewController.h */,
 				CA5FEE7517B25F0400E122D6 /* TestDetailViewController.m */,
+				CA49F82217D1EB6400671553 /* TestViewController.h */,
+				CA49F82317D1EB6400671553 /* TestViewController.m */,
 				CA5FEE6E17B25F0400E122D6 /* PhotoApp.xcdatamodeld */,
 				CA5FEE5A17B25F0300E122D6 /* Supporting Files */,
 			);
@@ -275,6 +280,7 @@
 				CA5FEE7017B25F0400E122D6 /* PhotoApp.xcdatamodeld in Sources */,
 				CA5FEE7317B25F0400E122D6 /* TestMasterViewController.m in Sources */,
 				CA5FEE7617B25F0400E122D6 /* TestDetailViewController.m in Sources */,
+				CA49F82417D1EB6400671553 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
