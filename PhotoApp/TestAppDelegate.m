@@ -20,8 +20,8 @@
 {
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    TestMasterViewController *controller = (TestMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+   // TestMasterViewController *controller = (TestMasterViewController *)navigationController.topViewController;
+   // controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							

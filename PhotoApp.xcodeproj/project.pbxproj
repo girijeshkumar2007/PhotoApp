@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA20312517B261BF0050D2DC /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20312217B261BF0050D2DC /* libAviarySDK.a */; };
+		CA20312617B261BF0050D2DC /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA20312417B261BF0050D2DC /* AviarySDKResources.bundle */; };
 		CA5FEE5217B25F0300E122D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE5117B25F0300E122D6 /* UIKit.framework */; };
 		CA5FEE5417B25F0300E122D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE5317B25F0300E122D6 /* Foundation.framework */; };
 		CA5FEE5617B25F0300E122D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE5517B25F0300E122D6 /* CoreGraphics.framework */; };
@@ -21,9 +23,27 @@
 		CA5FEE7017B25F0400E122D6 /* PhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5FEE6E17B25F0400E122D6 /* PhotoApp.xcdatamodeld */; };
 		CA5FEE7317B25F0400E122D6 /* TestMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5FEE7217B25F0400E122D6 /* TestMasterViewController.m */; };
 		CA5FEE7617B25F0400E122D6 /* TestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5FEE7517B25F0400E122D6 /* TestDetailViewController.m */; };
+		CA5FEE7D17B25FBC00E122D6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE7C17B25FBC00E122D6 /* Accelerate.framework */; };
+		CA5FEE7F17B25FCE00E122D6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE7E17B25FCE00E122D6 /* AdSupport.framework */; };
+		CA5FEE8117B25FE400E122D6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8017B25FE400E122D6 /* CoreText.framework */; };
+		CA5FEE8317B25FFD00E122D6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8217B25FFD00E122D6 /* libsqlite3.dylib */; };
+		CA5FEE8517B2600B00E122D6 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8417B2600B00E122D6 /* libz.1.2.5.dylib */; };
+		CA5FEE8717B2601A00E122D6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8617B2601A00E122D6 /* MessageUI.framework */; };
+		CA5FEE8917B2602300E122D6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8817B2602300E122D6 /* OpenGLES.framework */; };
+		CA5FEE8B17B2603100E122D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8A17B2603100E122D6 /* QuartzCore.framework */; };
+		CA5FEE8D17B2603E00E122D6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8C17B2603E00E122D6 /* StoreKit.framework */; };
+		CA5FEE8F17B2604900E122D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FEE8E17B2604900E122D6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA20311C17B261BF0050D2DC /* AFOpenGLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenGLManager.h; sourceTree = "<group>"; };
+		CA20311D17B261BF0050D2DC /* AFPhotoEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorContext.h; sourceTree = "<group>"; };
+		CA20311E17B261BF0050D2DC /* AFPhotoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorController.h; sourceTree = "<group>"; };
+		CA20311F17B261BF0050D2DC /* AFPhotoEditorControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorControllerOptions.h; sourceTree = "<group>"; };
+		CA20312017B261BF0050D2DC /* AFPhotoEditorCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorCustomization.h; sourceTree = "<group>"; };
+		CA20312117B261BF0050D2DC /* AFPhotoEditorSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorSession.h; sourceTree = "<group>"; };
+		CA20312217B261BF0050D2DC /* libAviarySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAviarySDK.a; sourceTree = "<group>"; };
+		CA20312417B261BF0050D2DC /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
 		CA5FEE4D17B25F0300E122D6 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5FEE5117B25F0300E122D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CA5FEE5317B25F0300E122D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +64,16 @@
 		CA5FEE7217B25F0400E122D6 /* TestMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMasterViewController.m; sourceTree = "<group>"; };
 		CA5FEE7417B25F0400E122D6 /* TestDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDetailViewController.h; sourceTree = "<group>"; };
 		CA5FEE7517B25F0400E122D6 /* TestDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDetailViewController.m; sourceTree = "<group>"; };
+		CA5FEE7C17B25FBC00E122D6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CA5FEE7E17B25FCE00E122D6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CA5FEE8017B25FE400E122D6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CA5FEE8217B25FFD00E122D6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CA5FEE8417B2600B00E122D6 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		CA5FEE8617B2601A00E122D6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CA5FEE8817B2602300E122D6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CA5FEE8A17B2603100E122D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA5FEE8C17B2603E00E122D6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CA5FEE8E17B2604900E122D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA20312517B261BF0050D2DC /* libAviarySDK.a in Frameworks */,
+				CA5FEE8F17B2604900E122D6 /* SystemConfiguration.framework in Frameworks */,
+				CA5FEE8D17B2603E00E122D6 /* StoreKit.framework in Frameworks */,
+				CA5FEE8B17B2603100E122D6 /* QuartzCore.framework in Frameworks */,
+				CA5FEE8917B2602300E122D6 /* OpenGLES.framework in Frameworks */,
+				CA5FEE8717B2601A00E122D6 /* MessageUI.framework in Frameworks */,
+				CA5FEE8517B2600B00E122D6 /* libz.1.2.5.dylib in Frameworks */,
+				CA5FEE8317B25FFD00E122D6 /* libsqlite3.dylib in Frameworks */,
+				CA5FEE8117B25FE400E122D6 /* CoreText.framework in Frameworks */,
+				CA5FEE7F17B25FCE00E122D6 /* AdSupport.framework in Frameworks */,
+				CA5FEE7D17B25FBC00E122D6 /* Accelerate.framework in Frameworks */,
 				CA5FEE5217B25F0300E122D6 /* UIKit.framework in Frameworks */,
 				CA5FEE5417B25F0300E122D6 /* Foundation.framework in Frameworks */,
 				CA5FEE5617B25F0300E122D6 /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +102,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA20311A17B261BF0050D2DC /* AviarySDK */ = {
+			isa = PBXGroup;
+			children = (
+				CA20311B17B261BF0050D2DC /* Headers */,
+				CA20312217B261BF0050D2DC /* libAviarySDK.a */,
+				CA20312317B261BF0050D2DC /* Resources */,
+			);
+			path = AviarySDK;
+			sourceTree = "<group>";
+		};
+		CA20311B17B261BF0050D2DC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CA20311C17B261BF0050D2DC /* AFOpenGLManager.h */,
+				CA20311D17B261BF0050D2DC /* AFPhotoEditorContext.h */,
+				CA20311E17B261BF0050D2DC /* AFPhotoEditorController.h */,
+				CA20311F17B261BF0050D2DC /* AFPhotoEditorControllerOptions.h */,
+				CA20312017B261BF0050D2DC /* AFPhotoEditorCustomization.h */,
+				CA20312117B261BF0050D2DC /* AFPhotoEditorSession.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CA20312317B261BF0050D2DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA20312417B261BF0050D2DC /* AviarySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CA5FEE4217B25F0300E122D6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +153,17 @@
 		CA5FEE5017B25F0300E122D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA5FEE8E17B2604900E122D6 /* SystemConfiguration.framework */,
+				CA5FEE8C17B2603E00E122D6 /* StoreKit.framework */,
+				CA5FEE8A17B2603100E122D6 /* QuartzCore.framework */,
+				CA5FEE8817B2602300E122D6 /* OpenGLES.framework */,
+				CA5FEE8617B2601A00E122D6 /* MessageUI.framework */,
+				CA5FEE8417B2600B00E122D6 /* libz.1.2.5.dylib */,
+				CA5FEE8217B25FFD00E122D6 /* libsqlite3.dylib */,
+				CA5FEE8017B25FE400E122D6 /* CoreText.framework */,
+				CA5FEE7E17B25FCE00E122D6 /* AdSupport.framework */,
+				CA5FEE7C17B25FBC00E122D6 /* Accelerate.framework */,
+				CA20311A17B261BF0050D2DC /* AviarySDK */,
 				CA5FEE5117B25F0300E122D6 /* UIKit.framework */,
 				CA5FEE5317B25F0300E122D6 /* Foundation.framework */,
 				CA5FEE5517B25F0300E122D6 /* CoreGraphics.framework */,
@@ -176,6 +259,7 @@
 				CA5FEE6817B25F0300E122D6 /* Default@2x.png in Resources */,
 				CA5FEE6A17B25F0300E122D6 /* Default-568h@2x.png in Resources */,
 				CA5FEE6D17B25F0300E122D6 /* MainStoryboard.storyboard in Resources */,
+				CA20312617B261BF0050D2DC /* AviarySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +356,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoApp/PhotoApp-Prefix.pch";
 				INFOPLIST_FILE = "PhotoApp/PhotoApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,6 +375,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoApp/PhotoApp-Prefix.pch";
 				INFOPLIST_FILE = "PhotoApp/PhotoApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -307,6 +407,7 @@
 				CA5FEE7B17B25F0400E122D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

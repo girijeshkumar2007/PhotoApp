@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFPhotoEditorController.h"
 
-@interface TestDetailViewController : UIViewController
+@interface TestDetailViewController : UIViewController<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,AFPhotoEditorControllerDelegate>{
+    
+}
 
 @property (strong, nonatomic) id detailItem;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+-(IBAction)photoButtonClcik:(id)sender;
 @end
